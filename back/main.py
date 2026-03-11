@@ -11,9 +11,11 @@ def calculate(f_number, znak, t_number):
     elif znak == "/":
         result = f_number / t_number
         print(result)
-    else:
+    if znak != '+' or znak != "-" or znak != "*" or znak != "/":
         result = 'Данный калькулятор не поддерживает такие операции'
         print(result)
-
-calculate('hello', '-', 4)
-
+    else:
+        print("Ты долбаёб?")
+calculate(1, "+", 1)
+calculate(1, "-", 1)
+calculate(1, "*", 1)

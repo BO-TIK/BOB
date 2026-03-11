@@ -21,6 +21,7 @@ while True:
     while first_tr:
         try:
             first_num = int(input())
+            first_tr = False
         except:
             print('число долбаеб')
 
@@ -30,9 +31,11 @@ while True:
     while temp_tr:
         try:
             temp_num = int(input())
+            temp_tr = False
         except:
             print('число долбаеб')
 
+    print(first_num, temp_num, znak)
 
 
 
