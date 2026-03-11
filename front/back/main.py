@@ -1,30 +1,16 @@
 def calculate(f_number, znak, t_number):
-    type_number = type(f_number)
-    typet_number = type(t_number)
-    if type_number or typet_number != int or float:
-        print("Ты чо далбаёб?")
-    elif znak != '+' or znak != "-" or znak != "*" or znak != "/":
-        result = 'Данный калькулятор не поддерживает такие операции'
-        print(result)
-    elif znak == "+":
-        result = f_number + t_number
-        print(result)
-    elif znak == "-":
-        result = f_number - t_number
-        print(result)
-    elif znak == "*":
-        result = f_number * t_number
-        print(result)
-    elif znak == "/":
-        result = f_number / t_number
-        print(result)
+    f_num, t_num = '', ''
+
+
+    try:
+        f_num = float(f_number)
+        print("f_num: ", f_num)
+    except:
+        print('непредвиденная ошибка')
+        return
 
 
 
-num = 1.2
-if isinstance(num, (int , float)):
-    print("Это целое число")
-
-calculate(1, '+ ',3)
+calculate(1, 1, 2)
 
 

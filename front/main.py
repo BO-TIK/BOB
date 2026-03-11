@@ -1,4 +1,4 @@
-
+from .back.main import calculate
 
 first_start = True
 
@@ -38,8 +38,8 @@ while True:
         except:
             print('число долбаеб')
 
-    print('ваше число')
-
+    print('ваше число:')
+    calculate(first_num, znak, temp_num)
 
 
 
