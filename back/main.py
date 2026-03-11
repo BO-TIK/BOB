@@ -15,5 +15,5 @@ def calculate(f_number, znak, t_number):
         result = 'Данный калькулятор не поддерживает такие операции'
         print(result)
 
-calculate()
+calculate('hello', '-', 4)
 
