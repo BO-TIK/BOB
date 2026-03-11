@@ -1,5 +1,10 @@
 def calculate(f_number, znak, t_number):
-    if znak == "+":
+    if f_number or t_number != int or float:
+        print("Ты чо далбаёб?")
+    elif znak != '+' or znak != "-" or znak != "*" or znak != "/":
+        result = 'Данный калькулятор не поддерживает такие операции'
+        print(result)
+    elif znak == "+":
         result = f_number + t_number
         print(result)
     elif znak == "-":
@@ -11,9 +16,7 @@ def calculate(f_number, znak, t_number):
     elif znak == "/":
         result = f_number / t_number
         print(result)
-    elif znak != '+' or znak != "-" or znak != "*" or znak != "/":
-        result = 'Данный калькулятор не поддерживает такие операции'
-        print(result)
-    elif f_number or t_number != int or float:
-        print("Ты чо далбаёб?")
-calculate('1', '+', '2')
+
+calculate(1, '+ ',3)
+
+print(type(2))
