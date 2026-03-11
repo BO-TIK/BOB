@@ -1,3 +1,1 @@
-print('дарова')
-if True:
-    print('True')
+a = HUINA PEREDELYVAI
