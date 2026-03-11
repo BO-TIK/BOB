@@ -17,4 +17,3 @@ def calculate(f_number, znak, t_number):
     else:
         print("Ты долбаёб?")
 calculate()
-
