@@ -11,7 +11,7 @@ def calculate(f_number, znak, t_number):
     elif znak == "/":
         result = f_number / t_number
         print(result)
-    if znak != '+' or znak != "-" or znak != "*" or znak != "/":
+    elif znak != '+' or znak != "-" or znak != "*" or znak != "/":
         result = 'Данный калькулятор не поддерживает такие операции'
         print(result)
     else:
