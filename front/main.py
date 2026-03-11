@@ -1,9 +1,4 @@
-import sys
-
-path_calc = r'.\.\back'
-sys.path.append(path_calc)
-
-from main import calculate
+from calculate
 
 first_start = True
 
