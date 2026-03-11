@@ -1,3 +1,10 @@
+import sys
+
+path_calc = r'.\.\back'
+sys.path.append(path_calc)
+
+from main import calculate
+
 first_start = True
 
 def its_first():
@@ -36,7 +43,8 @@ while True:
         except:
             print('число долбаеб')
 
-    print(first_num, temp_num, znak)
+    print('ваше число')
+
 
 
 
