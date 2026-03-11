@@ -19,6 +19,12 @@ def calculate(f_number, znak, t_number):
         result = f_number / t_number
         print(result)
 
+
+
+num = 1.2
+if isinstance(num, (int , float)):
+    print("Это целое число")
+
 calculate(1, '+ ',3)
 
-print(type(2))
+
