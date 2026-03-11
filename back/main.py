@@ -16,6 +16,5 @@ def calculate(f_number, znak, t_number):
         print(result)
     else:
         print("Ты долбаёб?")
-calculate(1, "+", 1)
-calculate(1, "-", 1)
-calculate(1, "*", 1)
+calculate('-9', "+", 1)
+

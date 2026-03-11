@@ -28,6 +28,7 @@ while True:
     print('теперь знак')
     znak = input()
 
+    print('теперь на что ну ты понял второе число')
     while temp_tr:
         try:
             temp_num = int(input())
