@@ -1,5 +1,7 @@
 def calculate(f_number, znak, t_number):
-    if f_number or t_number != int or float:
+    type_number = type(f_number)
+    typet_number = type(t_number)
+    if type_number or typet_number != int or float:
         print("Ты чо далбаёб?")
     elif znak != '+' or znak != "-" or znak != "*" or znak != "/":
         result = 'Данный калькулятор не поддерживает такие операции'
