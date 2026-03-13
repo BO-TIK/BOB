@@ -23,4 +23,3 @@ def calculate(f_number, znak, t_number):
 calculate(1, 1, 2)
 calculate('в', '0', '3')
 calculate('1', '/', '4')
-
