@@ -1,4 +1,4 @@
-from .back.main import calculate
+from back.main import calculate
 
 first_start = True
 
