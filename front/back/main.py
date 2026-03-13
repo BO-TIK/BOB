@@ -5,19 +5,21 @@ def calculate(f_number, znak, t_number):
     except:
         print("Ti eblan?")
         return
-    if znak == "+":
-        print(f_number + t_number)
-        return
-    elif znak == "-":
-        print(f_number - t_number)
-        return
-    elif znak == "*":
-        print(f_number * t_number)
-        return
-    elif znak == "/":
-        print(f_number / t_number)
-    else:
-        print('такого знака нет')
+    match (znak):
+            case "+":
+                print(f_number + t_number)
+                return
+            case "*":
+                print(f_number * t_number)
+                return
+            case "/":
+                print(f_number / t_number)
+                return
+            case "-":
+                print(f_number - t_number)
+            case _:
+                print('ti eblan?')
+                return
 calculate(1, 1, 2)
 calculate('в', '0', '3')
 calculate('1', '/', '4')
